@@ -16,10 +16,16 @@
         </header>
 
         <div class="container">
-        <h1>FOR SALE!</h1>
+        <h1>FOR SALE!</h1> <br>
         <h2>Seller: <%= data.fullName %></h2> <br>
-        <p>Item for sale: <%= data.itemName %> for sale</p>
-        <p>Item price: <%= data.itemPrice %> for sale</p>
+        <p>Item for sale: <b><%= data.itemName %></b></p>
+        <p>Item price £: <em><%= data.itemPrice %></em></p>
+
+        <form action="/" method="get">
+            <button id="backButton" type="submit" formmethod="get">Back</button>
+        </form>
+
+        <span id="instruct">"Thank you Human."</span>
     </div>
     
 </body>

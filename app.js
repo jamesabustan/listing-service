@@ -18,11 +18,6 @@ app.get('/', function(req, res){
     res.sendFile(__dirname + '/public/index.html');
 })
 
-// ROUTE  - GET data from FORM
-app.get('/itemListings', function(req, res){
-    res.send('display user details and listing items');
-});
-
 // ROUTE - POST DATA to FORM
 //database of item listings - data POSTED from form will be parsed through middleware
 app.post('/itemListings', urlencodedParser, function(req, res){
