@@ -1,0 +1,25 @@
+{
+  "name": "listing-service",
+  "version": "1.0.0",
+  "description": "listing service project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesabustan/listing-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesabustan/listing-service/issues"
+  },
+  "homepage": "https://github.com/jamesabustan/listing-service#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
