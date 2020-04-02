@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="shortcut icon" href="./img/robot.svg">
+    <title>EBOY|SELL HERE</title>
+</head>
+<body>
+    <!-- action attribute-- links to server or url  <form action="/action_page.php">
+    The for attribute of the <label> tag should be equal to the id attribute of the
+    <input> element to bind them together.
+    -->
+
+    <div class="container">
+        <header class="hero">
+            <img class="logo" src="./img/Logoeboy.png" alt="image of eboy robot logo">
+        </header>
+        <form action="/itemListings" method="POST">
+            <label for="firstName">First name:</label><br>
+            <input type="text" id="fname" name="firstName" placeholder="Enter First Name"><br>
+
+            <label for="lastName">Last name:</label><br>
+            <input type="text" id="lname" name="lastName" placeholder="Enter Last Name"><br><br>
+
+            <label for="itemName">Item Name:</label><br>
+            <input type="text" id="iname" name="itemName" placeholder="Enter Item Name"><br><br>
+            <input type="submit" id="submitBtn" value="Submit">
+        </form>
+    </div>
+    
+</body>
+</html>
