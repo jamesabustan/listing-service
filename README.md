@@ -31,6 +31,7 @@ Eboy (definitely not ebay.)- program created to simulate a basic listing service
 * To git commit regularly and meaningfully.
 * Implement front end JS functionality (ie.forms must be completed before being submitted.)
 * Improve on designing and learn more about UI.
-* Take regular breaks.
+* Added a feature where back button allows to edit previous information.
+* Take regular breaks to avoid burn out.
 
 
