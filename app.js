@@ -31,8 +31,6 @@ app.post('/itemListings', urlencodedParser, function(req, res){
 });
 
 
-
-
 app.listen(PORT, function() {
     console.log(`I love you ${PORT} - IronMan`);
 });
